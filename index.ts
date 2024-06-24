@@ -403,10 +403,10 @@ async function init() {
       // All templates contain at least a `.node` and a `.app` tsconfig.
       references: [
         {
-          path: './tsconfig.node.json'
+          path: './tsconfig.app.json'
         },
         {
-          path: './tsconfig.app.json'
+          path: './tsconfig.node.json'
         }
       ]
     }
